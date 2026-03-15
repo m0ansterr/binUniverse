@@ -46,6 +46,22 @@ export default function AboutPage() {
               <li><code>Ctrl+S</code> - Save paste</li>
               <li><code>Ctrl+N</code> - New paste</li>
             </ul>
+            
+            <h2 className="text-2xl font-semibold mt-8 mb-4">Source Code</h2>
+            <p>
+              binuniverse is open source and available on GitHub. You can view the source code,
+              report issues, or contribute to the project:
+            </p>
+            <p className="mt-2">
+              <a 
+                href="https://github.com/m0ansterr/binUniverse" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 underline"
+              >
+                https://github.com/m0ansterr/binUniverse
+              </a>
+            </p>
           </div>
         </div>
       </div>
