@@ -27,10 +27,11 @@ export default function PasteViewer({ slug, highlightedCode }: PasteViewerProps)
       <Header pasteSlug={slug} />
 
       <div id="content" className="binuniverse-editor readonly">
-        <div
-          className="h-full overflow-auto p-4"
-          dangerouslySetInnerHTML={{ __html: highlightedCode }}
-        />
+        <div className="h-full overflow-auto p-4">
+          <pre className="whitespace-pre-wrap font-mono text-sm leading-relaxed">
+            {highlightedCode}
+          </pre>
+        </div>
       </div>
 
       <Footer />
