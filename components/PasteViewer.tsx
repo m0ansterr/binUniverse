@@ -10,8 +10,6 @@ interface PasteViewerProps {
 }
 
 export default function PasteViewer({ slug, highlightedCode }: PasteViewerProps) {
-  console.log('PasteViewer rendering with slug:', slug, 'content length:', highlightedCode?.length)
-  
   useEffect(() => {
     const handleKeyboard = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.key === 'n') {
