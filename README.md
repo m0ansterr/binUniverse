@@ -1,6 +1,6 @@
 # 🌌 Neko
 
-![Neko](https://images.postersuniverse.workers.dev/?file=OEZEOZBQIZMDOUJTMF5EUOLRIJK4J7Y&mode=inline)
+![Neko](./public/nekobinCover.jpg)
 
 A modern, fast, and elegant pastebin service built with Next.js and Supabase. Share code snippets, text, and collaborate with others seamlessly.
 
